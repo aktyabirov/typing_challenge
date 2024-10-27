@@ -13,7 +13,7 @@ function updateTimer() {
 
     document.getElementById("timer").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
   } else {
-    document.getElementById("timer").innerHTML = "Deadline has passed!";
+    document.getElementById("timer").innerHTML = "Turnir o'z nihoyasiga yetdi!";
   }
 }
 
@@ -24,9 +24,9 @@ setInterval(updateTimer, 1000);
 const participants = [
   {
     name: "Rahmatolloh Oktyabirov",
-    instagramUrl: "https://www.instagram.com/johndoe/",
+    instagramUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/rahmatolloh.jpg?raw=true",
     score: 98,
-    imageUrl: "https://via.placeholder.com/50"
+    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/rahmatolloh.jpg?raw=true"
   },
 
 ];
@@ -42,7 +42,7 @@ participants.forEach(participant => {
     <img src="${participant.imageUrl}" alt="${participant.name}" />
     <div class="participant-info">
       <h3>${participant.name}</h3>
-      <a href="${participant.instagramUrl}" target="_blank">View on Instagram</a>
+      <a href="${participant.instagramUrl}" target="_blank">Instagramm videosini ko'rish </a>
     </div>
     <div class="participant-score">${participant.score}</div>
   `;

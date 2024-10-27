@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .scoreboard-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+  }
+  
+  .scoreboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .scoreboard-header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .deadline {
+    font-size: 16px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .scoreboard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .participant {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+  
+  .participant img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .participant-info {
+    flex: 1;
+  }
+  
+  .participant-info h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .participant-info a {
+    color: #3498db;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .participant-score {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2ecc71;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .scoreboard-container {
+      width: 90%;
+    }
+  
+    .participant {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .participant-info {
+      margin-top: 10px;
+    }
+  
+    .participant-score {
+      margin-top: 10px;
+    }
+  }
+  

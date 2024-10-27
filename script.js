@@ -24,7 +24,7 @@ setInterval(updateTimer, 1000);
 const participants = [
   {
     name: "Rahmatolloh Oktyabirov",
-    instagramUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/rahmatolloh.jpg?raw=true",
+    instagramUrl: "https://www.instagram.com/reel/DBov_Y0OA2b/?igsh=b2Ftcjl3Z29oNGIw",
     score: 71,
     accuracy: "89%",
     imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/rahmatolloh.jpg?raw=true"

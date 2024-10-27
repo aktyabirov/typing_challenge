@@ -25,7 +25,8 @@ const participants = [
   {
     name: "Rahmatolloh Oktyabirov",
     instagramUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/rahmatolloh.jpg?raw=true",
-    score: 98,
+    score: 71,
+    accuracy: "89%",
     imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/rahmatolloh.jpg?raw=true"
   },
 
@@ -39,13 +40,17 @@ participants.forEach(participant => {
   participantElement.classList.add('participant');
 
   participantElement.innerHTML = `
-    <img src="${participant.imageUrl}" alt="${participant.name}" />
-    <div class="participant-info">
-      <h3>${participant.name}</h3>
-      <a href="${participant.instagramUrl}" target="_blank">Instagramm videosini ko'rish </a>
-    </div>
-    <div class="participant-score">${participant.score}</div>
-  `;
+  <img src="${participant.imageUrl}" alt="${participant.name}" />
+  <div class="participant-info">
+    <h3>${participant.name}</h3>
+    <a href="${participant.instagramUrl}" target="_blank">Instagramm videosini ko'rish </a>
+  </div>
+  <div class="participant-score">
+    <div>Soni: ${participant.score}</div>
+    <div>Aniqlik: ${participant.accuracy}</div>
+  </div>
+`;
+
 
   participantsContainer.appendChild(participantElement);
 });

@@ -102,3 +102,10 @@
     }
   }
   
+  .participant-rank {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #3498db;
+  }
+  

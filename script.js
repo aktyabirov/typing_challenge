@@ -1,4 +1,4 @@
-
+// Countdown Timer
 const deadline = new Date("2024-11-04T15:00:00Z").getTime();
 
 function updateTimer() {
@@ -17,7 +17,6 @@ function updateTimer() {
   }
 }
 
-
 setInterval(updateTimer, 1000);
 
 
@@ -32,25 +31,25 @@ const participants = [
 
 ];
 
-
 const participantsContainer = document.getElementById('participants');
 
-participants.forEach(participant => {
+
+participants.forEach((participant, index) => {
   const participantElement = document.createElement('div');
   participantElement.classList.add('participant');
 
   participantElement.innerHTML = `
-  <img src="${participant.imageUrl}" alt="${participant.name}" />
-  <div class="participant-info">
-    <h3>${participant.name}</h3>
-    <a href="${participant.instagramUrl}" target="_blank">Instagramm videosini ko'rish </a>
-  </div>
-  <div class="participant-score">
-    <div>Soni: ${participant.score}</div>
-    <div>Aniqlik: ${participant.accuracy}</div>
-  </div>
-`;
-
+    <div class="participant-rank">#${index + 1}</div> <!-- Add rank -->
+    <img src="${participant.imageUrl}" alt="${participant.name}" />
+    <div class="participant-info">
+      <h3>${participant.name}</h3>
+      <a href="${participant.instagramUrl}" target="_blank">Instagramm videosini ko'rish</a>
+    </div>
+    <div class="participant-score">
+      <div>Soni: ${participant.score}</div>
+      <div>Aniqlik: ${participant.accuracy}</div>
+    </div>
+  `;
 
   participantsContainer.appendChild(participantElement);
 });

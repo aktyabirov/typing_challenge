@@ -68,7 +68,7 @@ participants.forEach((participant, index) => {
     <img src="${participant.imageUrl}" alt="${participant.name}" />
     <div class="participant-info">
       <h3>${participant.name}</h3>
-      <a href="${participant.instagramUrl}" target="_blank">Instagramm videosini ko'rish</a>
+      <a href="${participant.instagramUrl}" target="_blank">Videoni ko'rish</a>
     </div>
     <div class="participant-score">
       <div>Soni: ${participant.score}</div>

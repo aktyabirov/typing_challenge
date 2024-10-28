@@ -22,6 +22,13 @@ setInterval(updateTimer, 1000);
 
 const participants = [
   {
+    name: "Saidumar Alimxanov",
+    instagramUrl: "https://www.instagram.com/reel/DBpEzm0NESy/?igsh=MTl3YXA4Y214dmw0cw==",
+    score: 121,
+    accuracy: "94%",
+    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/saidumar.jpg?raw=true"
+  },
+  {
     name: "Rahmatolloh Oktyabirov",
     instagramUrl: "https://www.instagram.com/reel/DBov_Y0OA2b/?igsh=b2Ftcjl3Z29oNGIw",
     score: 71,

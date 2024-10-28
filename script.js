@@ -35,14 +35,14 @@ const participants = [
     instagramUrl: "https://www.instagram.com/reel/DBqSyW-PZnd/?igsh=MTZlNjdkMXg1cWhsNQ==",
     score: 100,
     accuracy: "99%",
-    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/unknown.jpg?raw=true"
+    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/unknown.png?raw=true"
   },
   {
     name: "Sattorov Xurshidbek",
     instagramUrl: "https://www.instagram.com/reel/DBqhd5yCnh8/?igsh=MThuMTk0d21xbG5meQ==",
     score: 93,
     accuracy: "96%",
-    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/unknown.jpg?raw=true"
+    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/unknown.png?raw=true"
   },
  
   {

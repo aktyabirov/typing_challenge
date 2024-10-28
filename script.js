@@ -23,12 +23,35 @@ setInterval(updateTimer, 1000);
 const participants = [
   
   {
+    name: "Saidumar Alimxanov",
+    instagramUrl: "https://www.instagram.com/reel/DBpEzm0NESy/?igsh=MTl3YXA4Y214dmw0cw==",
+    score: 121,
+    accuracy: "94%",
+    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/saidumar.jpg?raw=true"
+  },
+
+  {
+    name: "Abdumannon Murodiy",
+    instagramUrl: "https://www.instagram.com/reel/DBqSyW-PZnd/?igsh=MTZlNjdkMXg1cWhsNQ==",
+    score: 100,
+    accuracy: "99%",
+    imageUrl: "https://via.placeholder.com/50"
+  },
+  {
+    name: "Sattorov Xurshidbek",
+    instagramUrl: "https://www.instagram.com/reel/DBqhd5yCnh8/?igsh=MThuMTk0d21xbG5meQ==",
+    score: 93,
+    accuracy: "96%",
+    imageUrl: "https://via.placeholder.com/50"
+  },
+  {
     name: "Rahmatolloh Oktyabirov",
     instagramUrl: "https://www.instagram.com/reel/DBov_Y0OA2b/?igsh=b2Ftcjl3Z29oNGIw",
     score: 71,
     accuracy: "89%",
     imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/rahmatolloh.jpg?raw=true"
   },
+
 
 ];
 

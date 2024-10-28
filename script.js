@@ -35,7 +35,7 @@ const participants = [
     instagramUrl: "https://www.instagram.com/reel/DBqSyW-PZnd/?igsh=MTZlNjdkMXg1cWhsNQ==",
     score: 100,
     accuracy: "99%",
-    imageUrl: "https://via.placeholder.com/50"
+    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/unknown.jpg?raw=true"
   },
   {
     name: "Sattorov Xurshidbek",
@@ -44,13 +44,7 @@ const participants = [
     accuracy: "96%",
     imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/unknown.jpg?raw=true"
   },
-  {
-    name: "Hamidov Abdurahmon",
-    instagramUrl: "https://www.instagram.com/reel/DBqhd5yCnh8/?igsh=MThuMTk0d21xbG5meQ==",
-    score: 93,
-    accuracy: "96%",
-    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/unknown.jpg?raw=true"
-  },
+ 
   {
     name: "Rahmatolloh Oktyabirov",
     instagramUrl: "https://www.instagram.com/reel/DBov_Y0OA2b/?igsh=b2Ftcjl3Z29oNGIw",

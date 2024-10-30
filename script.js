@@ -24,7 +24,7 @@ const participants = [
   
   {
     name: "Saidumar Alimxanov",
-    instagramUrl: "https://www.instagram.com/reel/DBpEzm0NESy/?igsh=MTl3YXA4Y214dmw0cw==",
+    instagramUrl: "https://youtube.com/shorts/CMSifqMz35s?si=QvPIjqCaiVlepWMq",
     score: 123,
     accuracy: "97%",
     imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/saidumar.jpg?raw=true"

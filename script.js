@@ -25,9 +25,16 @@ const participants = [
   {
     name: "Saidumar Alimxanov",
     instagramUrl: "https://www.instagram.com/reel/DBpEzm0NESy/?igsh=MTl3YXA4Y214dmw0cw==",
-    score: 121,
-    accuracy: "94%",
+    score: 123,
+    accuracy: "97%",
     imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/saidumar.jpg?raw=true"
+  },
+  {
+    name: "Saitmuminov Shahobiddin",
+    instagramUrl: "https://www.instagram.com/reel/DBvho0KoJU3/?igsh=dHdja2NkMzZ6NTV4",
+    score: 123,
+    accuracy: "89%",
+    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/shahobiddin.jpg?raw=true"
   },
 
   {

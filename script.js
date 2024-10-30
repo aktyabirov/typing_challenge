@@ -22,11 +22,11 @@ setInterval(updateTimer, 1000);
 
 const participants = [
   {
-    name: "Anvarbek Samadov",
+    name: "Sa’dullayev Abdulloh Umar",
     instagramUrl: "https://www.instagram.com/reel/DBwfaIaIqDf/?igsh=MWZnbGUycXM2YzZoMA==",
     score: 130,
     accuracy: "99%",
-    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/anvarbek.png?raw=true"
+    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/abdulloh.jpg?raw=true"
   },
   
   {

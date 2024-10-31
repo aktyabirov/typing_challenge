@@ -74,6 +74,13 @@ const participants = [
     accuracy: "89%",
     imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/rahmatolloh.jpg?raw=true"
   },
+  {
+    name: "Bunyod Muydinov",
+    instagramUrl: "https://www.instagram.com/reel/DByiAaSon0i/?igsh=ZmQ0bDQ0bmNhNHh4",
+    score: 54,
+    accuracy: "99%",
+    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/bunyod.jpg?raw=true"
+  },
 
 
 ];

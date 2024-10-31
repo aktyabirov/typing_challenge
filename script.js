@@ -29,6 +29,13 @@ const participants = [
     imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/unknown.png?raw=true"
   },
   {
+    name: "Saidumar Alimxanov",
+    instagramUrl: "https://www.instagram.com/reel/DBw6kwVt4Z2/?igsh=MXBtNmt0aGlvbHp6cQ==",
+    score: 132,
+    accuracy: "99%",
+    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/saidumar.jpg?raw=true"
+  },
+  {
     name: "Sa’dullayev Abdulloh Umar",
     instagramUrl: "https://www.instagram.com/reel/DBwfaIaIqDf/?igsh=MWZnbGUycXM2YzZoMA==",
     score: 130,
@@ -36,13 +43,7 @@ const participants = [
     imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/abdulloh.jpg?raw=true"
   },
   
-  {
-    name: "Saidumar Alimxanov",
-    instagramUrl: "https://youtube.com/shorts/CMSifqMz35s?si=QvPIjqCaiVlepWMq",
-    score: 123,
-    accuracy: "97%",
-    imageUrl: "https://github.com/aktyabirov/typing_challenge/blob/main/images/saidumar.jpg?raw=true"
-  },
+  
   {
     name: "Saitmuminov Shahobiddin",
     instagramUrl: "https://www.instagram.com/reel/DBvho0KoJU3/?igsh=dHdja2NkMzZ6NTV4",
